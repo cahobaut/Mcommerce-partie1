@@ -27,7 +27,7 @@ public class ProductController {
     @Autowired
     private ProductDao productDao;
 
-
+    //Calculer marge
     @GetMapping (value ="/AdminProduits")
     public Map<String,Integer>  calculerMargeProduit() {
         Integer marge = 0;
@@ -39,6 +39,16 @@ public class ProductController {
         }
         return marges;
     }
+
+    //Liste produits par ordre alphabétique
+    @GetMapping (value="produitsOrdonnee")
+    public List<Product> trierProduitsParOrdreAlphabetique (){
+
+        List<Product> produits = productDao.findAllByOrderByNomAsc();
+        return produits;
+
+    }
+
     //Récupérer la liste des produits
 
     @RequestMapping(value = "/Produits", method = RequestMethod.GET)
