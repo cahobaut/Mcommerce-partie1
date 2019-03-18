@@ -1,0 +1,164 @@
+{
+	"id": "c5b977e7-6e65-4849-918b-bcfeeec18d42",
+	"name": "testsTP",
+	"allTests": [],
+	"timestamp": "2019-03-18T13:48:07.943Z",
+	"collection_id": "9c9f08fc-8913-4666-87a6-0c9a97d84366",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "0",
+	"data": [],
+	"delay": 0,
+	"count": 1,
+	"collection": {
+		"id": "9c9f08fc-8913-4666-87a6-0c9a97d84366",
+		"name": "testsTP",
+		"description": "",
+		"auth": null,
+		"events": null,
+		"variables": [],
+		"order": [
+			"e021c45a-392b-4a8a-ba05-a6ab2dac2ae4",
+			"3fba6777-406b-4ea6-aa86-55f11755cd3e",
+			"d791c636-ea22-4c4e-800c-667406af03fb"
+		],
+		"folders_order": [],
+		"owner": "5201272",
+		"favorite": false,
+		"isFavorite": true,
+		"type": "collection",
+		"depth": 0
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [],
+	"results": [
+		{
+			"name": "http://localhost:9090/AdminProduits",
+			"id": "e021c45a-392b-4a8a-ba05-a6ab2dac2ae4",
+			"url": "http://localhost:9090/AdminProduits",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"143"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "143",
+			"totalRequestTime": "143",
+			"iterationResults": {}
+		},
+		{
+			"name": "http://localhost:9090/produitsOrdonnee",
+			"id": "3fba6777-406b-4ea6-aa86-55f11755cd3e",
+			"url": "http://localhost:9090/produitsOrdonnee",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"28"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "28",
+			"totalRequestTime": "28",
+			"iterationResults": {}
+		},
+		{
+			"name": "http://localhost:9090/Produits",
+			"id": "d791c636-ea22-4c4e-800c-667406af03fb",
+			"url": "http://localhost:9090/Produits",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"19"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "19",
+			"totalRequestTime": "19",
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 0,
+	"totalFail": 0,
+	"totalTime": 190,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "http://localhost:9090/AdminProduits",
+			"id": "e021c45a-392b-4a8a-ba05-a6ab2dac2ae4",
+			"url": "http://localhost:9090/AdminProduits",
+			"time": "2019-03-18T13:48:07.943Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "http://localhost:9090/produitsOrdonnee",
+			"id": "3fba6777-406b-4ea6-aa86-55f11755cd3e",
+			"url": "http://localhost:9090/produitsOrdonnee",
+			"time": "2019-03-18T13:48:07.943Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "http://localhost:9090/Produits",
+			"id": "d791c636-ea22-4c4e-800c-667406af03fb",
+			"url": "http://localhost:9090/Produits",
+			"time": "2019-03-18T13:48:07.943Z",
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"testPassFailCounts": {}
+		}
+	],
+	"synced": false
+}

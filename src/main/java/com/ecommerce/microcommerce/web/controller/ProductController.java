@@ -97,7 +97,7 @@ public class ProductController {
             return ResponseEntity.noContent().build();
 
         if (product.getPrix() == 0) throw new ProduitGratuitException("Nos produits ne sont pas gratuits veuillez saisir un prix différent.");
-            
+
         URI location = ServletUriComponentsBuilder
                 .fromCurrentRequest()
                 .path("/{id}")
